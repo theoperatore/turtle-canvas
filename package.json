@@ -1,0 +1,29 @@
+{
+  "name": "turtle-canvas",
+  "version": "0.1.0",
+  "description": "Draw Turtle Graphics in a <canvas>!",
+  "main": "./lib/turtle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theoperatore/turtle-canvas"
+  },
+  "keywords": [
+    "turtle",
+    "graphics",
+    "logo",
+    "canvas"
+  ],
+  "author": "Alex Petersen <theoperatore@gmail.com> (http://anpetersen.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theoperatore/turtle-canvas/issues"
+  },
+  "homepage": "https://github.com/theoperatore/turtle-canvas",
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "browserify": "^8.1.1"
+  }
+}

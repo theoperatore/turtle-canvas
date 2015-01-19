@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="../browser/turtle-canvas.min.js"></script>
+</head>
+<body>
+  <canvas id="cvs" height=450 width=500></canvas>
+  <script type="text/javascript">
+  var turtle = new TURTLE("cvs");
+  turtle.moveTo(10, 225);
+
+  turtle.left(45);
+  turtle.forward(100);
+  turtle.right(45);
+  turtle.forward(10);
+  turtle.right(45);
+  turtle.forward(100);
+  turtle.right(135);
+  turtle.forward(25);
+  turtle.right(45);
+  turtle.forward(50);
+  turtle.left(45);
+  turtle.forward(30);
+  turtle.left(45);
+  turtle.forward(50);
+  turtle.right(45);
+  turtle.forward(25);
+
+  turtle.stroke();
+  </script>
+</body>
+</html>
